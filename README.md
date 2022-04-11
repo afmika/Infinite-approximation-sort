@@ -12,7 +12,8 @@ Theoretically speaking, we literally need an infinite amount of precision becaus
 all numbers on the real number line for this to work in the absolute sense thus we get a time complexity that can't be represented as a big O
 So let's just say, it's O(infinity) in time.
 
-![Approximation sort graph on Desmos](assets/desmos-graph.png) \
+# Screenshots
+![Approximation sort graph on Desmos](assets/desmos-graph.png)
 
 
-![Test cli](assets/test.png) \
+![Test cli](assets/test.png)
