@@ -9,8 +9,8 @@ Complexity O(N * 10^P) ~ O(N * exp(2.3P)) where P is the desired precision and N
 When a member of the set has N decimals, we define P > N otherwise the result will be false
 (yep it explodes quickly to infinity).
 Theoretically speaking, we literally need an infinite amount of precision because we have to traverse
-all numbers on the real number line for this to work in the absolute sense thus we get a time complexity that can't be represented as a big O
-So let's just say, it's O(infinity) in time.
+all numbers on the real number line for this to work in the absolute sense thus we get a time complexity that can't be represented as a big O.
+Let's just say, it's O(infinity) in time.
 
 # Screenshots
 ![Approximation sort graph on Desmos](assets/desmos-graph.png)
