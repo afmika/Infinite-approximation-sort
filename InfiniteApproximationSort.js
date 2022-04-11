@@ -7,7 +7,7 @@
  * Theoretically speaking, we literally need an infinite amount of precision because we have to traverse
  * all numbers on the real number line for this to work in the absolute sense
  * thus we get a time complexity that can't be represented as a big O
- * So let's just say, it's O(infinity) in time
+ * so let's just say, it's O(infinity) in time.
  */
 
 function MinAndMax (set) {
@@ -34,7 +34,7 @@ function infiniteApproximationSort (set, precision = 100) {
     const transl_y = Math.abs(min) + max;
 
     // we have to make sure that this function is strictly positive
-    // so that all negative numbers and 0 behaves in a predictable way
+    // so that all negative numbers and 0 behave in a predictable way
     const f = defineFunctionUsing (set, transl_y);
 
     const result = new Set ();
